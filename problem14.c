@@ -26,7 +26,7 @@ int main() {
         } 
     }
     
-    printf ("El alumno de mayor promedio es el numero %d con un promedio de %d\n\n", alumno, mayor_promedio); 
+    printf ("El alumno de mayor promedio es el numero %d con un promedio de %d\n", alumno, mayor_promedio); 
 
     return 0;
 }
