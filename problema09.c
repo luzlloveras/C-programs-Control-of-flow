@@ -13,13 +13,13 @@ int main() {
 		a=(num/10)/10;
 		
 		if (num== a*b*c){
-			printf("\n%d es igual a la multiplicacion de sus valores\n", num);
+			printf("%d es igual a la multiplicacion de sus valores\n", num);
 			flag = 1;
 		}
 	}
 	
 	if (flag==0)
-		printf("\n No hay valores que cumplan con la condicion");
+		printf("No hay valores que cumplan con la condicion\n");
 	
 	return 0;
 }
