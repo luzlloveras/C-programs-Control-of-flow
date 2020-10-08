@@ -16,7 +16,7 @@ int main() {
 		else;
 	}while (n>0);
 	
-	printf("Se hallaron %d numeros pares", pares);
+	printf("Se hallaron %d numeros pares\n", pares);
 	
 	return 0;
 }
