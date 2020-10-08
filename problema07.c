@@ -14,12 +14,12 @@ int main() {
 			}
 		}
 		if (acum_div==n){
-			printf("\n%d es numero perfecto\n\n", n);
+			printf("%d es numero perfecto\n", n);
 			cont_perfectos++;
 		}
 			
 		if (n%20000==0){
-			printf("\n\nEspere mientras se encuentra el quinto numero perfecto.\n\n");
+			printf("Espere mientras se encuentra el quinto numero perfecto.\n");
 		}
 	}
 	return 0;
