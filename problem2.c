@@ -22,14 +22,14 @@ int main() {
 	}
 	
 	if (pares>impares){
-		printf("La suma de numeros pares es mayor a la suma de impares");
+		printf("La suma de numeros pares es mayor a la suma de impares\n");
 	}
 	else {
 		if (pares<impares){
-			printf("La suma de impares es mayor a la suma de pares");	
+			printf("La suma de impares es mayor a la suma de pares\n");	
 		}
 		else {
-			printf("La suma de pares es igual a la suma de impares");
+			printf("La suma de pares es igual a la suma de impares\n");
 		}
 	}
 	return 0;
