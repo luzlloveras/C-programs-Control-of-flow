@@ -7,7 +7,7 @@ int main() {
 	int clave;
 	
 	do{
-		printf("Ingrese clave");
+		printf("Ingrese clave\n");
 		scanf("%d", &clave);
 	}while (clave != 23645);
 	
