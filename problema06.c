@@ -15,10 +15,10 @@ int main() {
 		}
 	}
 	if (acum_div==n){
-		printf("%d es un numero perfecto", n);
+		printf("%d es un numero perfecto\n", n);
 	}
 	else {
-		printf("%d no es un numero perfecto", n);
+		printf("%d no es un numero perfecto\n", n);
 	}		
 	return 0;
 }
