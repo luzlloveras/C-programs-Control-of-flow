@@ -7,13 +7,13 @@ int main() {
 	int n, numero_23;
 	numero_23 = 0;
 	do{
-		printf("Ingrese numero");
+		printf("Ingrese numero\n");
 		scanf("%d", &n);
 		if (n == 23){
 			numero_23++;
 		}
 	}while(n != 235);
 	
-	printf("El numero 23 se ingreso %d veces", numero_23);
+	printf("El numero 23 se ingreso %d veces\n", numero_23);
 	return 0;
 }
