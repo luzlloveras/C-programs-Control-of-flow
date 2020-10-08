@@ -16,7 +16,7 @@ int main() {
 		}
 	}
 	
-	printf("El numero mayor es %d\n y entro en posicion %d", max, posicion_max);
+	printf("El numero mayor es %d\n y entro en posicion %d\n", max, posicion_max);
 
 	return 0;
 }
