@@ -5,30 +5,38 @@
 
 #include <stdio.h>
 
-int main() {
+int main() 
+{
 	int n, i,  pares, impares;
-	pares=0;
-	impares=0;
+	pares = 0;
+	impares = 0;
 			
-	for(i=0;i<10;i++){
+	for (i = 0; i < 10; i++)
+	{
 		printf("Ingreso un numero\n");
 		scanf("%d", &n);
-		if (n%2==0){
-			pares=pares+n;
+		if (n%2 == 0)
+		{
+			pares += n;
 		}
-		else {
-			impares=impares+n;
+		else 
+		{
+			impares += n;
 		}
 	}
 	
-	if (pares>impares){
+	if (pares > impares)
+	{
 		printf("La suma de numeros pares es mayor a la suma de impares\n");
 	}
-	else {
-		if (pares<impares){
+	else 
+	{
+		if (pares < impares)
+		{
 			printf("La suma de impares es mayor a la suma de pares\n");	
 		}
-		else {
+		else 
+		{
 			printf("La suma de pares es igual a la suma de impares\n");
 		}
 	}
