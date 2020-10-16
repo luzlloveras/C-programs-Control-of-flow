@@ -6,21 +6,25 @@
 
 #include <stdio.h>
 
-int main() {
+int main() 
+{
     
-    int i, j, alumno, nota, legajo, acumulador_notas, promedio=0, mayor_promedio=0;
+    int i, j, alumno, nota, legajo, acumulador_notas, promedio = 0, mayor_promedio = 0;
 
-    for (i=0;i<10;i++) {
+    for (i = 0; i < 10; i++) 
+    {
         printf("Ingresar legajo\n");
         scanf("%d", &legajo);
         printf("Ingresar nota");
-        for (j=0, acumulador_notas=0; j<8;j++) {
+        for (j = 0, acumulador_notas = 0; j < 8; j++) 
+        {
             scanf("%d", &nota);             // se acumulan las 8 notas
-            acumulador_notas+=nota;
+            acumulador_notas += nota;
         }
-        promedio = acumulador_notas/3;      // calculo el promedio del alumno
+        promedio = acumulador_notas / 3;      // calculo el promedio del alumno
 
-        if (promedio>mayor_promedio){       // declaro el valor del mayor promedio
+        if (promedio > mayor_promedio)
+        {       // declaro el valor del mayor promedio
             mayor_promedio = promedio;
             alumno = i+1;
         } 
