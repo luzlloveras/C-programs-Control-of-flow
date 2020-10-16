@@ -3,10 +3,11 @@
 
 #include <stdio.h>
 
-int main() {
+int main() 
+{
 	int clave;
 	
-	do{
+	do {
 		printf("Ingrese clave\n");
 		scanf("%d", &clave);
 	}while (clave != 23645);
