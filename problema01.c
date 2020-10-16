@@ -4,17 +4,19 @@
 
 #include <stdio.h>
 
-int main() {
+int main() 
+{
 	int n, pares;
 	pares = 0;
-	do{
+	do {
 		printf("Ingrese numero\n");
 		scanf("%d", &n);
-		if (n%2 == 0){
+		if (n%2 == 0)
+		{
 			pares++;
 		}
 		else;
-	}while (n>0);
+	}while (n > 0);
 	
 	printf("Se hallaron %d numeros pares\n", pares);
 	
