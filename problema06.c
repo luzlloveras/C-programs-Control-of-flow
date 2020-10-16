@@ -5,19 +5,23 @@
 
 int main() {
 	int n, i, acum_div;
-	acum_div=0;
+	acum_div = 0;
 	printf("Ingrese numero\n");
 	scanf("%d", &n);
 	
-	for (i=1;i<n;i++){
-		if(n % i == 0){
-			acum_div=acum_div+i;
+	for (i = 1; i < n; i++)
+	{
+		if (n % i == 0)
+		{
+			acum_div +=i;
 		}
 	}
-	if (acum_div==n){
+	if (acum_div == n)
+	{
 		printf("%d es un numero perfecto\n", n);
 	}
-	else {
+	else 
+	{
 		printf("%d no es un numero perfecto\n", n);
 	}		
 	return 0;
