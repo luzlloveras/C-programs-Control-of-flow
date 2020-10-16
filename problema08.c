@@ -5,7 +5,8 @@
 #include <stdlib.h>  // rand(), srand()
 #include <time.h>    // time()
 
-int main() {
+int main() 
+{
 	
 	int i, n, azar, cara, ceca;
 	cara = 0;
@@ -13,18 +14,21 @@ int main() {
 	n = 100;
 	srand(time(0));
 	
-	for (i=0;i<n;i++){
+	for (i = 0; i < n; i++)
+	{
 		azar = rand()%2;
-		if (azar==0){
+		if (azar == 0)
+		{
 			cara++;
 		}
-		else {
+		else 
+		{
 			ceca++;
 		}
 	}
 	
-	printf("El porcentaje de ocurrencia de cara es %f %%\n", ((float)cara/n)*100);
-	printf("El porcentaje de ocurrencia de ceca es %f %%\n", ((float)ceca/n)*100);
+	printf("El porcentaje de ocurrencia de cara es %f %%\n", ((float)cara/n) * 100);
+	printf("El porcentaje de ocurrencia de ceca es %f %%\n", ((float)ceca/n) * 100);
 	
 	return 0;
 }
