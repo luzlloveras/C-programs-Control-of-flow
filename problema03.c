@@ -3,13 +3,15 @@
 
 #include <stdio.h>
 
-int main() {
+int main() 
+{
 	int n, numero_23;
 	numero_23 = 0;
-	do{
+	do {
 		printf("Ingrese numero\n");
 		scanf("%d", &n);
-		if (n == 23){
+		if (n == 23)
+		{
 			numero_23++;
 		}
 	}while(n != 235);
