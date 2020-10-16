@@ -4,19 +4,25 @@
 
 #include <stdio.h>
 
-int main() {
+int main() 
+{
 	int i, clave, flag=0;
 	
-	for(i=0;i<3;i++) {
+	for (i = 0; i < 3; i++) 
+	{
 		printf("Ingrese clave\n");
 		scanf("%d", &clave);
-		if (clave==23645){
+		if (clave == 23645)
+		{
 			printf("Ingreso clave correcta \n");
-			flag=1;
+			flag = 1;
 			break;
 		}
 	}
-	if (flag==0)
+	if (flag == 0)
+	{
 		printf("Supero los tres intentos fallidos\n");
+	}
+	
 	return 0;
 }
