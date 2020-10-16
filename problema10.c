@@ -4,15 +4,18 @@
 #include <stdio.h>
 #include <limits.h>
 
-int main() {
+int main() 
+{
 	int i, numero, posicion_max, max = INT_MIN;
 	
-	for (i=0;i<10;i++) {		
+	for (i = 0; i < 10; i++) 
+	{		
 		printf("Ingrese numero\n");
 		scanf("%d", &numero);
-		if (numero>max) {
-			max=numero;
-			posicion_max=i+1;
+		if (numero > max) 
+		{
+			max = numero;
+			posicion_max = i + 1;
 		}
 	}
 	
