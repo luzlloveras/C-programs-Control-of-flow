@@ -10,19 +10,11 @@ int main() {
 	scanf("%d", &n);
 	
 	for (i = 1; i < n; i++)
-	{
 		if (n % i == 0)
-		{
 			acum_div +=i;
-		}
-	}
 	if (acum_div == n)
-	{
 		printf("%d es un numero perfecto\n", n);
-	}
 	else 
-	{
-		printf("%d no es un numero perfecto\n", n);
-	}		
+		printf("%d no es un numero perfecto\n", n);	
 	return 0;
 }
