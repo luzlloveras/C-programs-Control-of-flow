@@ -20,9 +20,7 @@ int main()
 		}
 	}
 	if (flag == 0)
-	{
 		printf("Supero los tres intentos fallidos\n");
-	}
 	
 	return 0;
 }
