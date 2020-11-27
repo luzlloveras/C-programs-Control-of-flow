@@ -32,13 +32,9 @@ int main ()
     promedio_m = acumulador_m / contador_m;                // Calculo promedio de hombres
 
     if (promedio_f > promedio_m)                  // Defino a que genero pertenece el mejor promedio y lo imprimo en pantalla
-    {
         printf("El mejor promedio es de %d y pertenece a las mujeres/n", promedio_f);
-    }
     else
-    {
         printf("El mejor promedio es de %d y pertenece a los hombres/n", promedio_m);
-    }
 
     return 0;
 }
