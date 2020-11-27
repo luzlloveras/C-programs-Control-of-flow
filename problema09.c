@@ -20,8 +20,6 @@ int main()
 		}
 	}
 	if (flag == 0)
-	{
 		printf("No hay valores que cumplan con la condicion\n");
-	}
 	return 0;
 }
