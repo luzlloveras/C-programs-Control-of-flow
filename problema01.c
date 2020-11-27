@@ -12,9 +12,7 @@ int main()
 		printf("Ingrese numero\n");
 		scanf("%d", &n);
 		if (n%2 == 0)
-		{
 			pares++;
-		}
 		else;
 	}while (n > 0);
 	
