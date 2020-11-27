@@ -15,19 +15,13 @@ int main()
 		printf("Ingrese numero\n");
 		scanf("%d", &numero_actual);
 		if (numero_previo > numero_actual)
-		{
 			flag=1;
-		}
 	}
 	
 	if (flag == 0)
-	{
 		printf("La secuencia es creciente.\n");
-	}
 	else 
-	{
 		printf("La secuencia NO es creciente.\n");
-	}
 	
 	return 0;
 }
