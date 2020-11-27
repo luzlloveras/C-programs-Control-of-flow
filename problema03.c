@@ -11,9 +11,7 @@ int main()
 		printf("Ingrese numero\n");
 		scanf("%d", &n);
 		if (n == 23)
-		{
 			numero_23++;
-		}
 	}while(n != 235);
 	
 	printf("El numero 23 se ingreso %d veces\n", numero_23);
