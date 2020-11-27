@@ -18,13 +18,9 @@ int main()
 	{
 		azar = rand()%2;
 		if (azar == 0)
-		{
 			cara++;
-		}
 		else 
-		{
 			ceca++;
-		}
 	}
 	
 	printf("El porcentaje de ocurrencia de cara es %f %%\n", ((float)cara/n) * 100);
