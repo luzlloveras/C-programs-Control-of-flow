@@ -16,29 +16,19 @@ int main()
 		printf("Ingreso un numero\n");
 		scanf("%d", &n);
 		if (n%2 == 0)
-		{
 			pares += n;
-		}
 		else 
-		{
 			impares += n;
-		}
 	}
 	
 	if (pares > impares)
-	{
 		printf("La suma de numeros pares es mayor a la suma de impares\n");
-	}
 	else 
 	{
 		if (pares < impares)
-		{
 			printf("La suma de impares es mayor a la suma de pares\n");	
-		}
 		else 
-		{
 			printf("La suma de pares es igual a la suma de impares\n");
-		}
 	}
 	return 0;
 }
